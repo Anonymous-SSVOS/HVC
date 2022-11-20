@@ -11,7 +11,7 @@ from pathlib import Path
 
 def add_global_arguments(parser):
 
-    parser.add_argument('--batch-size', default=64, type=int, help='Per GPU batch size.')
+    parser.add_argument('--batch-size', default=128, type=int, help='Per GPU batch size.')
     parser.add_argument('--epochs', default=20, type=int, help='Number of total epochs to run.')
     parser.add_argument('--start-epoch', type=int, default=1, help='used for resume')
     
@@ -60,7 +60,7 @@ def add_global_arguments(parser):
     parser.add_argument('--test-model', default='hvc', type=str)
     parser.add_argument('--merge-model', default='mocov1', type=str)
     parser.add_argument('--pool-workers', default=32, type=int)
-    parser.add_argument('--model-path', default='./checkpoints/hvc.pth', type=str)
+    parser.add_argument('--model-path', default='./checkpoints/hvc_ytb.pth', type=str)
     parser.add_argument("--infer-list", default="val.txt", type=str)
     parser.add_argument('--mask-output-dir', type=str, default="./results", help='path where to save masks')
     
