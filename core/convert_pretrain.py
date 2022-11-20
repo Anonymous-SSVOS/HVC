@@ -15,5 +15,5 @@ for k, v in state_dict['model'].items():
         new_ckpt[new_k] = new_v
     
 # print(new_ckpt)
-torch.save(new_ckpt, './checkpoints/hvc.pth')
+torch.save(new_ckpt, './checkpoints/hvc_ytb.pth')
 
