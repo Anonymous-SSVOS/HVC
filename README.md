@@ -105,3 +105,9 @@ bash ./scripts/run_test.sh hvc davis17dev
 
 ![HVC](assets/girl-dog.gif) | ![HVC](assets/tandem.gif)
 ---|---
+
+
+## Acknowledgements
+- We thank [PyTorch](https://pytorch.org/), [YouTube-VOS](https://youtube-vos.org/), and [DAVIS](https://davischallenge.org/) contributors.
+
+- Thanks to [videowalk](https://github.com/ajabri/videowalk) for the label propagation codebases.
